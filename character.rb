@@ -1,10 +1,12 @@
 class Character
-  attr_accessor :name, :hp, :offense, :defense
+  attr_reader :name, :offense, :defense
+  attr_accessor :hp
 
-  def initialize
+  def initialize(name:, hp:, offense:, defense:)
     @name = name
     @hp = hp
-    @offense = offense
+    @offense =
+      offense
     @defense = defense
   end
 end
