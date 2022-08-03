@@ -32,6 +32,6 @@ end
 # どちらかが死亡した場合のメッセージ
 if monster.hp == 0
   puts "#{monster.name}をやっつけた！"
-elsif brave.hp == 0
+else
   puts "#{brave.name}はしんでしまった！"
 end
